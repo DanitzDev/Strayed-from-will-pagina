@@ -211,3 +211,51 @@ video {
         height: 220px;
     }
 }
+
+span {
+    color: #a4a4a4;
+}
+
+.carousel-integrantes {
+    display: flex;
+    position: relative;
+
+    h2 {
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        transform: translateY(-50%); /* Centrado vertical exacto */
+        pointer-events: none;
+        font-size: 5rem;
+    }
+
+    p {
+        text-align: start;
+        color: #e2e8f0;
+        top: 30%;
+        left: 40%;
+        transform: translateY(-50%); /* Centrado vertical exacto */
+        pointer-events: none;
+    }
+}
+
+.caja-info-int {
+    width: 40%;
+    max-width: 500px;
+    min-height: 400px;
+    height: auto;
+    left: auto;
+    right: 5%;
+    top: 50%;
+    position: absolute;
+    padding: 2.5rem;
+    box-sizing: border-box;
+}
+
+.caja-info-int p {
+    font-family: poppins;
+    color: #e2e8f0;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+}
